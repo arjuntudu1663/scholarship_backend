@@ -17,7 +17,7 @@ const secret_key = process.env.SECRET_KEY
 app.use(express.json());
 app.use(body_parser.json());
 app.use(cors({
-    origin:["http://localhost:3000"]
+    origin:["https://scholarship-frontend-five.vercel.app","http://localhost:3000"]
 }))
 
 
