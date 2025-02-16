@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require("uuid");
 MYSQLPASSWORD = process.env.MYSQLPASSWORD
 
 const dbPool = mysql.createPool({
-    host: 'localhost',
+    host: '0.0.0.0',
     user: 'root',
     password: `${MYSQLPASSWORD}`,
     database: 'edtech'
